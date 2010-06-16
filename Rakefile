@@ -5,9 +5,9 @@ require File.dirname(__FILE__) + '/lib/daemon_kit'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gemspec|
-    gemspec.name = 'daemon-kit'
+    gemspec.name = 'textgoeshere-daemon-kit'
     gemspec.version = DaemonKit::VERSION
-    gemspec.summary = 'Opinionated framework for Ruby daemons'
+    gemspec.summary = 'Build of opinionated framework for Ruby daemons'
     gemspec.description = 'daemon-kit aims to simplify creating Ruby daemons by providing a sound application skeleton (through a generator), task specific generators (jabber bot, etc) and robust environment management code.'
     gemspec.email = 'kenneth.kalmer@gmail.com'
     gemspec.homepage = 'http://github.com/kennethkalmer/daemon-kit'
