@@ -50,7 +50,7 @@ module DaemonKit
     def load_initializer
       begin
         require 'rubygems' unless defined?( ::Gem )
-        gem 'daemon-kit'
+        gem 'textgoeshere-daemon-kit'
         require 'daemon_kit/initializer'
       rescue ::Gem::LoadError => e
         msg = <<EOF
