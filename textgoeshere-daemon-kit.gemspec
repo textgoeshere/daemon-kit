@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.name = %q{textgoeshere-daemon-kit}
   s.version = "0.1.8.3"
 
-  s.required_rubygems_version = Gem::Requirement.new("> 1.3.1") if s.respond_to? :required_rubygems_version=
+  s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["kenneth.kalmer@gmail.com"]
   s.date = %q{2010-06-16}
   s.default_executable = %q{daemon-kit}
@@ -37,7 +37,6 @@ Gem::Specification.new do |s|
      "TODO.txt",
      "bin/daemon-kit",
      "config/website.yml",
-     "daemon-kit.gemspec",
      "lib/daemon_kit.rb",
      "lib/daemon_kit/abstract_logger.rb",
      "lib/daemon_kit/amqp.rb",
@@ -208,7 +207,8 @@ Gem::Specification.new do |s|
      "test/test_helper.rb",
      "test/test_nanite_agent_generator.rb",
      "test/test_ruote_generator.rb",
-     "test/test_test_unit_generator.rb"
+     "test/test_test_unit_generator.rb",
+     "textgoeshere-daemon-kit.gemspec"
   ]
   s.homepage = %q{http://github.com/kennethkalmer/daemon-kit}
   s.post_install_message = %q{
